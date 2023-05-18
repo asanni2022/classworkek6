@@ -1,1 +1,4 @@
-print("Hello from github actions commits")
+import requests
+
+response = requests.get('https://api.github.com')
+print(response.status_code)
